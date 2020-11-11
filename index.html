@@ -22,6 +22,19 @@
 				<h2>Tutoring services</h1>
 				<p>I am an experienced tutor offering tutoring services in Mathematics and Physics up to A-Level standard. I also provide tutoring in the Oxford PAT and application process/interview. Price agreed on a case-by-case basis. Email me for more information.</p>
 				<hr />
+				<h2>Calendar</h2>
+				Enter password: <input id='password' type='text'  />
+				<a href="calendar.html" onclick="javascript:return validatePass()">Submit</a>
+				<script>
+				function validatePass(){
+					if(document.getElementById('password').value == 'calendarplease'){
+						return true;
+					}else{
+						alert('wrong password!!');
+						return false;
+					}
+				}
+				</script>
 			</div>
 			<div class="ikeepfooterdown">
 				<hr />
